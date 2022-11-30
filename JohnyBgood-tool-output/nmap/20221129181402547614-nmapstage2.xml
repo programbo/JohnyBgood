@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.93 scan initiated Tue Nov 29 18:14:04 2022 as: /usr/bin/nmap -T4 -sV -p T:25,135,137,139,445,1433,3306,5432,U:137,161,162,1434 -oA /root/.local/share/legion/tmp/legion-gt49d7an-running/nmap/20221129181402547614-nmapstage2 134.209.19.24 -->
+<nmaprun scanner="nmap" args="/usr/bin/nmap -T4 -sV -p T:25,135,137,139,445,1433,3306,5432,U:137,161,162,1434 -oA /root/.local/share/legion/tmp/legion-gt49d7an-running/nmap/20221129181402547614-nmapstage2 134.209.19.24" start="1669763644" startstr="Tue Nov 29 18:14:04 2022" version="7.93" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="8" services="25,135,137,139,445,1433,3306,5432"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="134.209.19.24" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1669763650" endtime="1669763651"><status state="up" reason="reset" reason_ttl="255"/>
+<address addr="134.209.19.24" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="smtp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="135"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="msrpc" method="table" conf="3"/></port>
+<port protocol="tcp" portid="137"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ns" method="table" conf="3"/></port>
+<port protocol="tcp" portid="139"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+<port protocol="tcp" portid="1433"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="ms-sql-s" method="table" conf="3"/></port>
+<port protocol="tcp" portid="3306"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="mysql" method="table" conf="3"/></port>
+<port protocol="tcp" portid="5432"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="postgresql" method="table" conf="3"/></port>
+</ports>
+<times srtt="4353" rttvar="4557" to="100000"/>
+</host>
+<runstats><finished time="1669763652" timestr="Tue Nov 29 18:14:12 2022" summary="Nmap done at Tue Nov 29 18:14:12 2022; 1 IP address (1 host up) scanned in 8.13 seconds" elapsed="8.13" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

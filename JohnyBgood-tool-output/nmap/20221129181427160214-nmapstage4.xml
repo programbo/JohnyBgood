@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.93 scan initiated Tue Nov 29 18:14:27 2022 as: /usr/bin/nmap -T4 -sV -p T:23,21,22,110,111,2049,3389,8080,U:500,5060 -oA /root/.local/share/legion/tmp/legion-gt49d7an-running/nmap/20221129181427160214-nmapstage4 134.209.19.24 -->
+<nmaprun scanner="nmap" args="/usr/bin/nmap -T4 -sV -p T:23,21,22,110,111,2049,3389,8080,U:500,5060 -oA /root/.local/share/legion/tmp/legion-gt49d7an-running/nmap/20221129181427160214-nmapstage4 134.209.19.24" start="1669763667" startstr="Tue Nov 29 18:14:27 2022" version="7.93" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="8" services="21-23,110-111,2049,3389,8080"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="134.209.19.24" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1669763674" endtime="1669763675"><status state="up" reason="reset" reason_ttl="255"/>
+<address addr="134.209.19.24" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="ftp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="22"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="23"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="telnet" method="table" conf="3"/></port>
+<port protocol="tcp" portid="110"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="pop3" method="table" conf="3"/></port>
+<port protocol="tcp" portid="111"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="rpcbind" method="table" conf="3"/></port>
+<port protocol="tcp" portid="2049"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="nfs" method="table" conf="3"/></port>
+<port protocol="tcp" portid="3389"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="ms-wbt-server" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8080"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="http-proxy" method="table" conf="3"/></port>
+</ports>
+<times srtt="2897" rttvar="5000" to="100000"/>
+</host>
+<runstats><finished time="1669763675" timestr="Tue Nov 29 18:14:35 2022" summary="Nmap done at Tue Nov 29 18:14:35 2022; 1 IP address (1 host up) scanned in 8.14 seconds" elapsed="8.14" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

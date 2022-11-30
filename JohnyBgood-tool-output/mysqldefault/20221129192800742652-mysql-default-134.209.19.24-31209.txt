@@ -1,0 +1,1 @@
+# Hydra v9.4 run at 2022-11-29 19:28:03 on 134.209.19.24 mysql (/usr/bin/hydra -s 31209 -C ./wordlists/mysql-betterdefaultpasslist.txt -u -o /root/.local/share/legion/tmp/legion-gt49d7an-running/mysqldefault/20221129192800742652-mysql-default-134.209.19.24-31209.txt -f 134.209.19.24 mysql)

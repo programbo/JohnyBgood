@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.93 scan initiated Tue Nov 29 18:14:38 2022 as: /usr/bin/nmap -T4 -sV -p T:0-20,24,26-79,81-109,112-134,136,138,140-442,444,446-1432,1434-2048,2050-3305,3307-3388,3390-5431,5433-8079,8081-29999 -oA /root/.local/share/legion/tmp/legion-gt49d7an-running/nmap/20221129181436835533-nmapstage5 134.209.19.24 -->
+<nmaprun scanner="nmap" args="/usr/bin/nmap -T4 -sV -p T:0-20,24,26-79,81-109,112-134,136,138,140-442,444,446-1432,1434-2048,2050-3305,3307-3388,3390-5431,5433-8079,8081-29999 -oA /root/.local/share/legion/tmp/legion-gt49d7an-running/nmap/20221129181436835533-nmapstage5 134.209.19.24" start="1669763678" startstr="Tue Nov 29 18:14:38 2022" version="7.93" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="29982" services="0-20,24,26-79,81-109,112-134,136,138,140-442,444,446-1432,1434-2048,2050-3305,3307-3388,3390-5431,5433-8079,8081-29999"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="134.209.19.24" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1669763684" endtime="1669764170"><status state="up" reason="reset" reason_ttl="255"/>
+<address addr="134.209.19.24" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="29982">
+<extrareasons reason="no-response" count="29981" proto="tcp" ports="1-20,24,26-79,81-109,112-134,136,138,140-442,444,446-1432,1434-2048,2050-3305,3307-3388,3390-5431,5433-8079,8081-29999"/>
+<extrareasons reason="net-unreach" count="1" proto="tcp" ports="0"/>
+</extraports>
+</ports>
+<times srtt="28838" rttvar="28726" to="143742"/>
+</host>
+<runstats><finished time="1669764170" timestr="Tue Nov 29 18:22:50 2022" summary="Nmap done at Tue Nov 29 18:22:50 2022; 1 IP address (1 host up) scanned in 492.76 seconds" elapsed="492.76" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

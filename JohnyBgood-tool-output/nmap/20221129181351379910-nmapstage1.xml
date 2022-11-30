@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.93 scan initiated Tue Nov 29 18:13:52 2022 as: /usr/bin/nmap -T4 -sV -p T:80,81,443,4443,8080,8081,8082 -oA /root/.local/share/legion/tmp/legion-gt49d7an-running/nmap/20221129181351379910-nmapstage1 134.209.19.24 -->
+<nmaprun scanner="nmap" args="/usr/bin/nmap -T4 -sV -p T:80,81,443,4443,8080,8081,8082 -oA /root/.local/share/legion/tmp/legion-gt49d7an-running/nmap/20221129181351379910-nmapstage1 134.209.19.24" start="1669763632" startstr="Tue Nov 29 18:13:52 2022" version="7.93" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="7" services="80-81,443,4443,8080-8082"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="134.209.19.24" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1669763638" endtime="1669763639"><status state="up" reason="reset" reason_ttl="255"/>
+<address addr="134.209.19.24" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="81"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="hosts2-ns" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="https" method="table" conf="3"/></port>
+<port protocol="tcp" portid="4443"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="pharos" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8080"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="http-proxy" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8081"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="blackice-icecap" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8082"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="blackice-alerts" method="table" conf="3"/></port>
+</ports>
+<times srtt="900" rttvar="5000" to="100000"/>
+</host>
+<runstats><finished time="1669763640" timestr="Tue Nov 29 18:14:00 2022" summary="Nmap done at Tue Nov 29 18:14:00 2022; 1 IP address (1 host up) scanned in 8.74 seconds" elapsed="8.74" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
